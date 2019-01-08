@@ -41,7 +41,11 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 var StyledList = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div.withConfig({
   displayName: "List__StyledList",
   componentId: "sc-1jkxjah-0"
-})(["display:flex;justify-content:center;"]);
+})(["display:flex;justify-content:center;flex-direction:column;text-align:center;border:4px solid #30c5ff;"]);
+var StyledTodo = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].ul.withConfig({
+  displayName: "List__StyledTodo",
+  componentId: "sc-1jkxjah-1"
+})(["padding:0;"]);
 
 var List =
 /*#__PURE__*/
@@ -87,8 +91,8 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledList, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "LIST"), this.state.toDos.map(function (toDo, i) {
-        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledList, null, this.state.toDos.map(function (toDo, i) {
+        return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledTodo, {
           key: i
         }, toDo.text);
       }));
@@ -48951,7 +48955,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -48976,5 +48980,5 @@ module.exports = dll_52339ab353c8e0db40da;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]));;
+},[[4,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=index.js.map

@@ -4,9 +4,19 @@ import styled from "styled-components";
 import API from "../utils/toDoApi";
 
 const StyledList = styled.div`
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;  
+  /* background-color: #30c5ff; */
+  text-align: center;
+  border: 4px solid #30c5ff;
+  /* width: 30%; */
 `;
+
+const StyledTodo = styled.ul`
+    padding: 0;
+`
+
 
 class List extends Component {
     state = {
@@ -27,8 +37,8 @@ class List extends Component {
 
     render() {
         return <StyledList>
-            <h1>LIST</h1>
-            {this.state.toDos.map((toDo, i) => <ul key={i}>{toDo.text}</ul>)}
+            {/* <h1>LIST</h1> */}
+            {this.state.toDos.map((toDo, i) => <StyledTodo key={i}>{toDo.text}</StyledTodo>)}
         </StyledList>;
     }
 

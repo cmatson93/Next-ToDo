@@ -4,8 +4,10 @@ import styled from "styled-components";
 import ToDoAPI from "../utils/toDoApi"
 
 const StyledBox = styled.div`
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  /* background-color: #30c5ff; */
+  /* border: 4px solid #30c5ff; */
 `;
 
 class InputBox extends Component {

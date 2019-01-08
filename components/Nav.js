@@ -5,10 +5,12 @@ import styled from "styled-components";
 const StyledNav = styled.div`
   display: flex;
   justify-content: space-around;
-  background-color: #38302e;
-  color: #ccdad1;
+  background-color: #5c946e;
+  color: #2a2d34;
   align-items: center;
-  h1:hover, h3:hover {
+  /* width: 100%; */
+  h1:hover,
+  h3:hover {
     color: #a7b3ac;
     cursor: pointer;
   }

@@ -146,7 +146,7 @@ __webpack_require__.r(__webpack_exports__);
 var StyledNav = styled_components__WEBPACK_IMPORTED_MODULE_2___default.a.div.withConfig({
   displayName: "Nav__StyledNav",
   componentId: "sc-1s1ou1y-0"
-})(["display:flex;justify-content:space-around;background-color:#38302e;color:#ccdad1;align-items:center;h1:hover,h3:hover{color:#a7b3ac;cursor:pointer;}"]);
+})(["display:flex;justify-content:space-around;background-color:#5c946e;color:#2a2d34;align-items:center;h1:hover,h3:hover{color:#a7b3ac;cursor:pointer;}"]);
 
 var Nav = function Nav() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(StyledNav, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -196,7 +196,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n\n    body {\n        padding: 0;\n        margin: 0;\n        background-color: #6F6866;\n    }\n    \n"]);
+  var data = _taggedTemplateLiteral(["\n\n    body {\n        padding: 0;\n        margin: 0;\n        background-color: #2A2D34;\n        color: #80C2AF;\n    }\n    \n"]);
 
   _templateObject = function _templateObject() {
     return data;
